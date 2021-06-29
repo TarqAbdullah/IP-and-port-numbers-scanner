@@ -32,9 +32,6 @@ def pingEvent():
     global max_range
     max_range = list(range(int(firs_address), int(last_address) + 1, 1))
 
-    # # input validation.
-    address = re.findall(r'[0-9]+[.][0-9]+[.][0-9]+', network_address)
-
     # pinging stage.
     if checkState.get() == 1:
         filetxt = open("output.txt", "a")
@@ -57,7 +54,7 @@ def pingEvent():
                 filetxt = open("output.txt", "a")
                 filetxt.write('IP: ' + str(ip) + '\t' + ' State: up.' + '\n')
                 filetxt.close()
-                up_hosts.append(ip)
+                up_hosts.append(str(ip))
         print('')
         with open("output.txt") as file:
             output = file.read()
