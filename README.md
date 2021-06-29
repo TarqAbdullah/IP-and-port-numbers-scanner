@@ -1,7 +1,7 @@
 Two GUI tools written in Python.
 
 1-Ping IPs by range:
-  This tool gives you the functionality to ping a set of IPs to verify connectivity, till now it only supports /8 /16 /24 prefixes.
+  This tool gives you the functionality to ping a set of IPs to verify connectivity.
   
 2-TCP Ports Scanner:
   This tool will test a target, by providing an IPv4 address, and it will check a given range of ports.
