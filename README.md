@@ -10,7 +10,7 @@ Two GUI tools written in Python.
 
 ![image](https://user-images.githubusercontent.com/49244752/121349051-c45de380-c931-11eb-8927-7ae8f76ca364.png)
 
-Implementation: https://youtu.be/iAs7HZ9gINc
+Implementation: https://youtu.be/MySu0WUWq2Q
 
 ## `TCP Ports Scanner`
 
