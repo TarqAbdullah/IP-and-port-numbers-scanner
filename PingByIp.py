@@ -10,9 +10,12 @@ root.title("Ping tool")
 
 
 def disableEntry():
-    firstEntry.config(state='disabled')
-    lastEntry.config(state='disabled')
-
+    if checkState.get() == 1:
+        firstEntry.config(state='disabled')
+        lastEntry.config(state='disabled')
+    else:
+        firstEntry.config(state='normal')
+        lastEntry.config(state='normal')
 
 def pingEvent():
     count = 0
